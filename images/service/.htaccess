@@ -1,0 +1,6 @@
+Redirect /index.php http://tutunova.by/lock.html
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^blog/([\-a-z0-9]+)/$			blog/index.php?cat=$1
+RewriteRule ^blog/([\-a-z0-9]+)/([\-a-z0-9]+)/$		blog/post/index.php?cat=$1&id=$2
