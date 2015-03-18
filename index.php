@@ -1,5 +1,5 @@
 <?=file_get_contents("http://".$_SERVER["HTTP_HOST"]."/header.php?request=".$_SERVER["REQUEST_URI"]);?>
-	
+	hh
 	<div id="content">
         <div class="block">
             <img src="images/icon/who_we_are.png">
